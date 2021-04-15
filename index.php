@@ -6,6 +6,7 @@
 		foreach($_SESSION['errors'] as $error){
 			echo "<p>". $error ."</p>";
 		}
+        unset($_SESSION['errors']);
 	}
 ?>
 <html>
